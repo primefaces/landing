@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/IBMPlexSans-Regular.otf") format('opentype'), /* IE6-IE8 */
+    url("../fonts/IBMPlexSans-Regular.woff2") format('woff2'), /* Super Modern Browsers */
+    url("../fonts/IBMPlexSans-Regular.woff") format('woff'), /* Modern Browsers */
+    url("../fonts/IBMPlexSans-Regular.ttf") format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/IBMPlexSans-Medium.otf") format('opentype'), /* IE6-IE8 */
+    url("../fonts/IBMPlexSans-Medium.woff2") format('woff2'), /* Super Modern Browsers */
+    url("../fonts/IBMPlexSans-Medium.woff") format('woff'), /* Modern Browsers */
+    url("../fonts/IBMPlexSans-Medium.ttf") format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/IBMPlexSans-Bold.otf") format('opentype'), /* IE6-IE8 */
+    url("../fonts/IBMPlexSans-Bold.woff2") format('woff2'), /* Super Modern Browsers */
+    url("../fonts/IBMPlexSans-Bold.woff") format('woff'), /* Modern Browsers */
+    url("../fonts/IBMPlexSans-Bold.ttf") format('truetype'); /* Safari, Android, iOS */
+}
