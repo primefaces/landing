@@ -21,6 +21,16 @@
 @font-face {
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/IBMPlexSans-SemiBold.otf") format('opentype'), /* IE6-IE8 */
+    url("../fonts/IBMPlexSans-SemiBold.woff2") format('woff2'), /* Super Modern Browsers */
+    url("../fonts/IBMPlexSans-SemiBold.woff") format('woff'), /* Modern Browsers */
+    url("../fonts/IBMPlexSans-SemiBold.ttf") format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
     font-weight: 700;
     src: url("../fonts/IBMPlexSans-Bold.otf") format('opentype'), /* IE6-IE8 */
     url("../fonts/IBMPlexSans-Bold.woff2") format('woff2'), /* Super Modern Browsers */
