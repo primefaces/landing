@@ -35,7 +35,7 @@ $transitionDuration: .4s;
     .landing-button {
         padding: 12px;
         @include border-radius(1px);
-        background-color: #b2d5f5;
+        background-color: rgba(255, 135, 0, .4);
         border: none;
         cursor: pointer;
         @include transition(background-color $transitionDuration);
@@ -43,14 +43,14 @@ $transitionDuration: .4s;
         > span {
             font-size: 16px;
             font-weight: normal;
-            color: #0075df;
+            color: #20272a;
 
             &:first-child {
                 font-weight: 600;
             }
         }
         &:hover {
-            background-color: #87c4fb;
+            background-color: #ff8700;
         }
     }
 
@@ -96,19 +96,19 @@ $transitionDuration: .4s;
 
                 > a {
                     font-weight: 600;
-                    color: #dd0031;
+                    color: #03c4e8;
                 }
             }
 
             > .landing-button {
-                background-color: #0075df;
+                background-color: #ff8700;
               
                 > span {
                     color: #ffffff;
                 }
 
                 &:hover {
-                    background-color: #62a5e2;
+                    background-color: rgba(255, 135, 0, .6);;
                 }
             }
 
@@ -416,6 +416,18 @@ $transitionDuration: .4s;
                 }
             }
         }
+
+        > .landing-button {
+            background-color: #ff8700;
+          
+            > span {
+                color: #20272a;
+            }
+
+            &:hover {
+                background-color: rgba(255, 135, 0, .6);;
+            }
+        }
     }
 
     .landing-component-features {
@@ -659,7 +671,7 @@ $transitionDuration: .4s;
         font-size: 18px;
         border: none;
         outline: none;
-        background-color: #e52340;
+        background-color: #02c4e8;
         color: #ffffff;
         cursor: pointer;
         height: 42px;
