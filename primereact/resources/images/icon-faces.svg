@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>E39CCD59-AE12-458B-BC1C-0C0082DEC97C</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PrimeNG---Landing" transform="translate(-263.000000, -488.000000)">
+            <g id="topbar" transform="translate(0.000000, 42.000000)">
+                <g id="icon-faces" transform="translate(263.000000, 446.000000)">
+                    <circle id="Oval" stroke="#263238" stroke-width="2" fill="#FFFFFF" cx="24" cy="24" r="23"></circle>
+                    <g id="head" transform="translate(9.000000, 8.000000)">
+                        <polygon id="bg" fill="#263238" points="8.14405321 0 4.82052141 3.67362283 0 2.75598824 2.68245808 12.1189455 4.46603182 23.5257603 11.4982767 32 17.689568 32 24.6331905 23.5488939 26.505003 12.0337366 29.3647059 2.75598824 24.5883038 3.67362283 21.1389359 0"></polygon>
+                        <g id="primefaces" transform="translate(3.011765, 2.258824)">
+                            <polygon id="chick-right" fill="#D0D8DC" fill-rule="nonzero" points="17.5304348 12.4149079 15.6742711 12.0010777 17.117954 14.070229 17.117954 20.4845981 22.0677238 16.3462955 22.0677238 9.31118096 19.7990793 10.1388415"></polygon>
+                            <polygon id="chick-left" fill="#D0D8DC" fill-rule="nonzero" transform="translate(4.640409, 14.897890) scale(-1, 1) translate(-4.640409, -14.897890) " points="3.29984655 12.4149079 1.44368286 12.0010777 2.88736573 14.070229 2.88736573 20.4845981 7.83713555 16.3462955 7.83713555 9.31118096 5.56849105 10.1388415"></polygon>
+                            <polygon id="mask" fill="#D0D8DC" points="7.01217391 14.4840593 8.66209719 12.0010777 9.69329923 12.6218231 13.8181074 12.6218231 14.8493095 12.0010777 16.4992327 14.4840593 16.4992327 23.7952402 15.2617903 25.6574764 13.8181074 27.1058824 9.69329923 27.1058824 8.24961637 25.6574764 7.01217391 23.7952402"></polygon>
+                            <g id="mask-effect-right" transform="translate(13.199386, 18.415447)" fill="#263238">
+                                <polygon id="line" transform="translate(1.856164, 1.655321) rotate(-38.000000) translate(-1.856164, -1.655321) " points="0.337603237 1.25274738 3.88262123 1.40568934 3.37472413 2.05789474 -0.170293861 1.90495278"></polygon>
+                                <polygon id="line" transform="translate(1.856164, 3.103727) rotate(-38.000000) translate(-1.856164, -3.103727) " points="0.337603237 2.70115331 3.88262123 2.85409527 3.37472413 3.50630067 -0.170293861 3.3533587"></polygon>
+                                <polygon id="line" transform="translate(1.856164, 4.552133) rotate(-38.000000) translate(-1.856164, -4.552133) " points="0.337603237 4.14955923 3.88262123 4.3025012 3.37472413 4.9547066 -0.170293861 4.80176463"></polygon>
+                            </g>
+                            <g id="mask-effect-left" transform="translate(6.599693, 18.208532)" fill="#263238">
+                                <polygon id="line" transform="translate(1.856164, 1.655321) scale(-1, 1) rotate(-38.000000) translate(-1.856164, -1.655321) " points="0.337603237 1.25274738 3.88262123 1.40568934 3.37472413 2.05789474 -0.170293861 1.90495278"></polygon>
+                                <polygon id="line" transform="translate(1.856164, 3.103727) scale(-1, 1) rotate(-38.000000) translate(-1.856164, -3.103727) " points="0.337603237 2.70115331 3.88262123 2.85409527 3.37472413 3.50630067 -0.170293861 3.3533587"></polygon>
+                                <polygon id="line" transform="translate(1.856164, 4.552133) scale(-1, 1) rotate(-38.000000) translate(-1.856164, -4.552133) " points="0.337603237 4.14955923 3.88262123 4.3025012 3.37472413 4.9547066 -0.170293861 4.80176463"></polygon>
+                            </g>
+                            <polygon id="bottom-chick-right" fill="#7A858A" fill-rule="nonzero" points="17.117954 24.4159856 19.7990793 21.7260889 19.7990793 19.0361922 17.117954 21.3122586"></polygon>
+                            <polygon id="bottom-chick-left" fill="#7A858A" fill-rule="nonzero" transform="translate(5.052890, 21.726089) scale(-1, 1) translate(-5.052890, -21.726089) " points="3.71232737 24.4159856 6.39345269 21.7260889 6.39345269 19.0361922 3.71232737 21.3122586"></polygon>
+                            <path d="M12.9931458,7.23865412e-14 L12.9931458,5.17287831 L13.8181074,4.75904805 L13.8181074,7.23865412e-14 L14.4368286,0 L16.0867519,3.93138752 L13.611867,11.7941626 L12.1681841,11.7941626 L12.1681841,0 L12.9931458,7.23865412e-14 Z M9.69329923,4.75904805 L10.5182609,5.17287831 L10.5182609,0 L11.3432225,0 L11.3432225,11.7941626 L10.1057801,11.7941626 L7.42465473,3.93138752 L9.07457801,0 L9.69329923,0 L9.69329923,4.75904805 Z" id="head" fill="#D0D8DC"></path>
+                            <polygon id="head-left" fill="#D0D8DC" fill-rule="nonzero" points="10.1057801 11.7941626 1.23744246 8.48352043 0 3.31064212 7.90588235 3.95294118 10.5411765 11.7941626"></polygon>
+                            <polygon id="head-right" fill="#D0D8DC" fill-rule="nonzero" transform="translate(18.447059, 7.552402) scale(-1, 1) translate(-18.447059, -7.552402) " points="23.2822506 11.7941626 14.413913 8.48352043 13.1764706 3.31064212 21.0823529 3.95294118 23.7176471 11.7941626"></polygon>
+                            <polygon id="ear-right" fill="#D0D8DC" fill-rule="nonzero" points="16.4992327 3.31064212 20.8302813 2.89681185 17.9429156 0 15.0555499 0"></polygon>
+                            <polygon id="ear-left" fill="#D0D8DC" fill-rule="nonzero" transform="translate(5.568491, 1.655321) scale(-1, 1) translate(-5.568491, -1.655321) " points="4.12480818 3.31064212 8.45585678 2.89681185 5.56849105 0 2.68112532 0"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
