@@ -96,7 +96,7 @@ $transitionDuration: .4s;
 
                 > a {
                     font-weight: 600;
-                    color: #03c4e8;
+                    color: #41b883;
                 }
             }
 
@@ -233,10 +233,14 @@ $transitionDuration: .4s;
                 justify-content: center;
 
                 span {
-                    font-size: 20px;
+                    font-size: 18px;
                     font-weight: 500;
-                    color: #ffc200;
+                    color: #db9d2b;
                     position: absolute;
+                }
+
+                a{
+                    color: #ffffff;
                 }
 
                 img {
@@ -671,7 +675,7 @@ $transitionDuration: .4s;
         font-size: 18px;
         border: none;
         outline: none;
-        background-color: #02c4e8;
+        background-color: #41b883;
         color: #ffffff;
         cursor: pointer;
         height: 42px;
