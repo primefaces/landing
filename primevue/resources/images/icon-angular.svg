@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <path id="prefix__a" d="M14.773 0L14.773 0 14.773 0 0.038 5.234 2.285 24.64 14.773 31.529 14.773 31.529 14.773 31.529 27.26 24.64 29.507 5.234z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="24" cy="24" r="23" fill="#FFF" stroke="#DD0031" stroke-width="2"/>
+        <g transform="translate(9 8)">
+            <mask id="prefix__b" fill="#fff">
+                <use xlink:href="#prefix__a"/>
+            </mask>
+            <use fill="#DD0031" fill-rule="nonzero" xlink:href="#prefix__a"/>
+            <path fill="#C3002F" d="M14.773 0L14.773 3.5 14.773 3.484 14.773 19.453 14.773 19.453 14.773 31.529 14.773 31.529 27.26 24.64 29.507 5.234z" mask="url(#prefix__b)"/>
+            <g>
+                <path fill="#FFF" fill-rule="nonzero" d="M13.35 9.42L11.936 9.106 13.035 10.676 13.035 15.543 16.805 12.403 16.805 7.065 15.077 7.693z" transform="translate(5.742 5.533)"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M2.513 9.42L1.099 9.106 2.199 10.676 2.199 15.543 5.968 12.403 5.968 7.065 4.24 7.693z" transform="translate(5.742 5.533) matrix(-1 0 0 1 7.067 0)"/>
+                <path fill="#FFF" d="M5.324 10.971L6.577 9.083 7.36 9.555 10.492 9.555 11.275 9.083 12.528 10.971 12.528 18.05 11.588 19.466 10.492 20.567 7.36 20.567 6.264 19.466 5.324 18.05z" transform="translate(5.742 5.533)"/>
+                <g fill="#C3002F">
+                    <path d="M0.257 0.951L2.957 1.067 2.57 1.561 -0.13 1.445z" transform="translate(5.742 5.533) translate(10.051 13.659) rotate(-38 1.413 1.256)"/>
+                    <path d="M0.257 2.207L2.957 2.323 2.57 2.817 -0.13 2.701z" transform="translate(5.742 5.533) translate(10.051 13.659) rotate(-38 1.413 2.512)"/>
+                    <path d="M0.257 3.463L2.957 3.579 2.57 4.073 -0.13 3.957z" transform="translate(5.742 5.533) translate(10.051 13.659) rotate(-38 1.413 3.768)"/>
+                </g>
+                <g fill="#DD0031">
+                    <path d="M0.257 0.951L2.957 1.067 2.57 1.561 -0.13 1.445z" transform="translate(5.742 5.533) translate(5.026 13.659) scale(-1 1) rotate(-38 0 5.361)"/>
+                    <path d="M0.257 2.207L2.957 2.323 2.57 2.817 -0.13 2.701z" transform="translate(5.742 5.533) translate(5.026 13.659) scale(-1 1) rotate(-38 0 6.617)"/>
+                    <path d="M0.257 3.463L2.957 3.579 2.57 4.073 -0.13 3.957z" transform="translate(5.742 5.533) translate(5.026 13.659) scale(-1 1) rotate(-38 0 7.873)"/>
+                </g>
+                <path fill="#FFF" fill-rule="nonzero" d="M13.035 18.526L15.077 16.485 15.077 14.444 13.035 16.171z" transform="translate(5.742 5.533)"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M2.827 18.526L4.869 16.485 4.869 14.444 2.827 16.171z" transform="translate(5.742 5.533) matrix(-1 0 0 1 7.696 0)"/>
+                <path fill="#FFF" d="M9.894 0v3.925l.629-.314V0h.47l1.257 2.983-1.884 5.966h-1.1V0h.628zM7.382 3.611l.628.314V0h.628v8.949h-.942L5.654 2.983 6.91 0h.472v3.611z" transform="translate(5.742 5.533)"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M7.696 8.949L0.942 6.437 0 2.512 5.811 2.983 7.853 8.949z" transform="translate(5.742 5.533)"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M17.904 8.949L11.151 6.437 10.209 2.512 16.177 2.983 18.061 8.949z" transform="translate(5.742 5.533) matrix(-1 0 0 1 28.27 0)"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M12.564 2.512L15.862 2.198 13.664 0 11.465 0z" transform="translate(5.742 5.533)"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M3.141 2.512L6.439 2.198 4.24 0 2.042 0z" transform="translate(5.742 5.533) matrix(-1 0 0 1 8.48 0)"/>
+            </g>
+        </g>
+    </g>
+</svg>
