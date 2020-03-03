@@ -698,6 +698,9 @@ $transitionDuration: .4s;
 }
 
 @media (max-width:992px){
+    img {
+        opacity: 1 !important;
+    }
     .landing-body {
         .landing-topbar {
             justify-content: center;
