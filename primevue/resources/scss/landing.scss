@@ -35,7 +35,7 @@ $transitionDuration: .4s;
     .landing-button {
         padding: 12px;
         @include border-radius(1px);
-        background-color: rgba(255, 135, 0, .4);
+        background-color: rgba(68, 92, 114, .4);
         border: none;
         cursor: pointer;
         @include transition(background-color $transitionDuration);
@@ -101,14 +101,14 @@ $transitionDuration: .4s;
             }
 
             > .landing-button {
-                background-color: #ff8700;
+                background-color: #445c72;
               
                 > span {
                     color: #ffffff;
                 }
 
                 &:hover {
-                    background-color: rgba(255, 135, 0, .6);;
+                    background-color: rgba(68, 92, 114, .8);
                 }
             }
 
@@ -396,7 +396,7 @@ $transitionDuration: .4s;
 
     .landing-promo {
         margin: 0 6% 84px;
-        background-color: #20272a;
+        background-color: #445c72;
         @include flex();
         @include flex-align-center();
         @include flex-justify-between();
@@ -422,14 +422,14 @@ $transitionDuration: .4s;
         }
 
         > .landing-button {
-            background-color: #ff8700;
+            background-color: #fcd274;
           
             > span {
                 color: #20272a;
             }
 
             &:hover {
-                background-color: rgba(255, 135, 0, .6);;
+                background-color: rgba(252, 210, 116, .8);
             }
         }
     }
