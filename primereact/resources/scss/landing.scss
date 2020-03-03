@@ -50,7 +50,7 @@ $transitionDuration: .4s;
             }
         }
         &:hover {
-            background-color: #ff8700;
+            background-color: rgba(255, 135, 0, .8);
         }
     }
 
@@ -108,7 +108,7 @@ $transitionDuration: .4s;
                 }
 
                 &:hover {
-                    background-color: rgba(255, 135, 0, .8);;
+                    background-color: rgba(255, 135, 0, .7);;
                 }
             }
 
@@ -425,7 +425,7 @@ $transitionDuration: .4s;
             }
 
             &:hover {
-                background-color: rgba(255, 135, 0, .6);;
+                background-color: rgba(255, 135, 0, .7);;
             }
         }
     }
