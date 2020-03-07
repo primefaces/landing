@@ -9,6 +9,12 @@
         gtag('js', new Date());
         gtag('config', 'UA-93461466-1');
     </script>
+    <script>
+        var tokens = window.location.href.split('/#/');
+        if (tokens[1]) {
+            window.location.replace("https://www.primefaces.org/primereact/showcase/#/" + tokens[1]);
+        }
+    </script>
     <meta charset="UTF-8">
     <meta name="description" content="Open source Angular UI component library.">
     <meta name="keywords" content="react,material,bootstrap,create-react-app,react ui component library,react ui component framework, react table, react tree, react select">
@@ -33,7 +39,7 @@
             <h1>Build Better Apps with React</h1>
             <p>The ultimate collection of design-agnostic, flexible and accessible <a href="https://reactjs.org/" target="_blank">React</a> 
                 UI Components.</p>
-            <a class="landing-button" href="https://www.primefaces.org/primereact/#/">
+            <a class="landing-button" href="https://www.primefaces.org/primereact/showcase/">
                 <span>Get Started</span>
             </a>
             <span>Also available for Angular, Vue and Java</span>
