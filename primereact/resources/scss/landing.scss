@@ -65,6 +65,135 @@ $transitionDuration: .4s;
             height: 42px;
             width: auto;
         }
+
+        .landing-topbar-menu {
+            display: flex;
+            align-items: center;
+
+            .dropdown{
+                padding: 0;
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+
+                .sub-toggle {
+                    position: relative;
+
+                    > a {
+                        display: block;
+                        font-size: 16px;
+                        background: transparent;
+                        border: none;
+                        box-shadow: none;
+                        outline: none;
+                        cursor: pointer;
+                        color: #20272a;
+                        padding: 20px;
+    
+                        &::after {
+                            content: "\25BE";
+                            float: right;
+                            margin-right: -17px;
+                        }
+
+                        &:hover {
+                            color: #c3002f;
+                        }
+                    }
+                    ul{
+                        position: absolute;
+                        display: none;
+                        margin: 0;
+                        padding: 0;
+                        left: 10px;
+                        width: 100%;
+                        min-width: 190px;
+                        display: none;
+                        border-radius: 2px;
+                        border: solid 1px #dadbdb;
+                        background-color: #ffffff;
+                        z-index: 999;
+                        max-height: 330px;
+                        overflow: auto;
+    
+                        &.show {
+                            display: block;
+                        }
+    
+                        li {
+                            list-style: none;
+                            padding: 0px 12px;
+                            a {
+                                font-size: 16px;
+                                display:block;
+                                padding: 6px 0;
+                                text-decoration: none;
+                                color: #20272a;
+                                transition: 0.5s;
+                            }
+                            &:hover { 
+                                background-color: #eee;
+                            }
+                        }
+                    }
+
+                    &.templates {
+                        ul {
+                            max-height: 200px;
+                            min-width: 220px;
+                            li {
+                                a {
+                                    display: flex;
+                                    align-items: center;
+    
+                                    img {
+                                        width: 32px;
+                                    }
+    
+                                    span {
+                                        margin-left: 8px;
+                                    }
+    
+                                    .tag {
+                                        margin-left: 4px;
+                                        padding: 2px 4px;
+                                        border-radius: 3px;
+                                        color: #fff;
+                                        font-weight: 700;
+                                        font-size: 11px;
+    
+                                        &.new {
+                                            background-image: linear-gradient(180deg,#96c93d,#00b09b);
+                                        }
+                                        &.material {
+                                            background: linear-gradient(180deg,#202124,#404147);
+                                        }
+                                        &.bootstrap {
+                                            background: linear-gradient(180deg,#563d7c,#966bd8);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }   
+            > a {
+                font-size: 16px;
+                color: #20272a;
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                
+                img {
+                    margin-left: 8px;
+                }
+
+                &:hover {
+                    color: #c3002f;
+                }
+            }
+        }
     }
     
     .landing-header {
@@ -700,6 +829,8 @@ $transitionDuration: .4s;
     .landing-body {
         .landing-topbar {
             justify-content: center;
+            flex-direction: column;
+            
             .landing-button {
                 display: none;
             }
