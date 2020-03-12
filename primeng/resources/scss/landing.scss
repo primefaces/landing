@@ -20,6 +20,19 @@ $transitionDuration: .4s;
     }
 } 
 
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 20px, 0);
+    }
+    
+    to {
+      opacity: 1;
+      transform: none;
+    }
+}
+
+
 .landing-body {
     font-family: 'IBM Plex Sans';;
     margin: 0;
@@ -101,7 +114,6 @@ $transitionDuration: .4s;
                     }
                     ul{
                         position: absolute;
-                        display: none;
                         margin: 0;
                         padding: 0;
                         left: 10px;
@@ -117,6 +129,7 @@ $transitionDuration: .4s;
     
                         &.show {
                             display: block;
+                            animation: fadeInDown .4s ;
                         }
     
                         li {
