@@ -152,7 +152,7 @@ $transitionDuration: .4s;
 
                     &.templates {
                         ul {
-                            max-height: 200px;
+                            max-height: 250px;
                             min-width: 220px;
                             li {
                                 a {
@@ -846,6 +846,17 @@ $transitionDuration: .4s;
             
             .landing-button {
                 display: none;
+            }
+
+            .landing-topbar-menu {
+                .dropdown {
+                    .sub-toggle {
+                        position: unset;
+                        ul {
+                            left: 0;
+                        }
+                    }
+                }
             }
         }
         .landing-header {

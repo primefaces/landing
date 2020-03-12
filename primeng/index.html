@@ -883,33 +883,31 @@
                 behavior: 'smooth'
             });
         }
-        function removeClass(e, c) {
+
+        var mClass = '.sub-toggle'
+        var menu = document.querySelectorAll(mClass);
+
+        function removeClass(e, className) {
             elm = document.querySelectorAll(mClass);
             for (var i = 0; i < elm.length; i++) {
-                if (c == 'active') {
+                if (className == 'active') {
                 elm[i].classList.remove('active');
                 } else {
                 if (!elm[i].classList.contains('active')) elm[i].querySelector('.list').classList.remove('show');
                 }
             }
         }
-        var mClass = '.sub-toggle'
-        var menu = document.querySelectorAll(mClass);
 
         window.onload = function(){
-            var dropdown = document.querySelectorAll('.sub-toggle');
-            var list = document.querySelectorAll('.list');
-            
             document.onclick = function(e){
                if(e.target.className !== 'dropdown-btn' ){
-                    dropdown[0].classList.remove('active');
-                    dropdown[1].classList.remove('active');
-                    list[0].classList.remove('show');
-                    list[1].classList.remove('show');
-               }
+                    menu.forEach(function(o) {
+                        removeClass(o, 'active');
+                        removeClass(o);
+                    });
+                }
             };
          };
-       
 
         menu.forEach(function(o) {
             o.addEventListener('click', function(e) {
