@@ -141,11 +141,12 @@ $transitionDuration: .4s;
                                 padding: 6px 0;
                                 text-decoration: none;
                                 color: #20272a;
-                                transition: 0.5s;
+
+                                &:hover { 
+                                    color: #45b985;
+                                }
                             }
-                            &:hover { 
-                                background-color: #eee;
-                            }
+                            
                         }
                     }
 
