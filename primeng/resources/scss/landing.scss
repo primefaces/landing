@@ -316,7 +316,6 @@ $transitionDuration: .4s;
             > span {
                 display: block;
                 margin-top: 62px;
-                opacity: 0.5;
                 font-size: 16px;
                 color: #20272a;
             }
@@ -332,57 +331,13 @@ $transitionDuration: .4s;
                     position: relative;
 
                     > img {
-                        width: 48px;
+                        width: 64px;
                         height: auto;
-                    }
-
-                    .tooltip {
-                        position: absolute;
-                        top: -16px;
-                        right: -32px;
-                        background-color: #585858;
-                        padding: 1px;
-                        font-size: 11px;
-                        color: #ffffff;
-                        opacity:0;
-                        min-width: 60px;
-                        text-align: center;
-                        top: -20px;
-                        right: -8px;
-                        display: block;
                     }
 
                     &:hover {
                         transform: scale(1.1);
                         @include transition(transform $transitionDuration);
-                    }
-
-                    &:nth-child(1){
-                        &:hover {
-                            .tooltip {
-                                &.react {
-                                    opacity: 1;
-                                }
-                            }
-                        }
-                    }
-                    &:nth-child(2){
-                        &:hover {
-                            .tooltip {
-                                &.vue {
-                                    opacity: 1;
-                                }
-                            }
-                        }
-                    }
-                    &:nth-child(3){
-                        &:hover {
-                            .tooltip {
-                                &.faces {
-                                    opacity: 1;
-                                }
-                            }
-                        }
                     }
                 }
                 
