@@ -45,25 +45,43 @@ $transitionDuration: .4s;
         text-decoration: none;
     }
 
-    .landing-button {
-        padding: 12px;
+    .landing-button, .landing-button-alt {
+        text-align: center;
+        box-sizing: border-box;
+        padding: 12px 20px;
         @include border-radius(1px);
-        background-color: #b2d5f5;
+        background-color: #0075df;
         border: none;
         cursor: pointer;
+        display: inline-block;
+        min-width: 110px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
         @include transition(background-color $transitionDuration);
 
         > span {
             font-size: 16px;
             font-weight: normal;
-            color: #0075df;
+            color: #ffffff;
 
             &:first-child {
                 font-weight: 600;
             }
         }
+
         &:hover {
-            background-color: #87c4fb;
+            background-color: #138fff;
+        }
+    }
+
+    .landing-button-alt {
+        background-color: #ffffff;
+
+        > span {
+            color: #0075df;
+        }
+
+        &:hover {
+            background-color: #ebebeb;
         }
     }
 
@@ -291,16 +309,8 @@ $transitionDuration: .4s;
                 }
             }
 
-            > .landing-button {
-                background-color: #0075df;
-              
-                > span {
-                    color: #ffffff;
-                }
-
-                &:hover {
-                    background-color: #62a5e2;
-                }
+            .landing-button-alt {
+                margin-left: 8px;
             }
 
             > span {
@@ -795,19 +805,6 @@ $transitionDuration: .4s;
                     margin: 0;
                     color: #20272a;
                     margin-bottom: 24px;
-                }
-
-                .landing-button {
-                    background-color: #fcd274;
-                    @include transition(background-color $transitionDuration);
-
-                    span {
-                        color: #20272a;
-                    }
-
-                    &:hover {
-                        background-color: #dca11b; 
-                    }
                 }
             }
         }
