@@ -32,7 +32,7 @@
         <div class="landing-topbar-menu">
             <ul id="menu" class="dropdown">
                 <li class="sub-toggle templates">
-                  <a class="dropdown-btn" href="#">Templates</a>
+                  <a class="dropdown-btn" tabindex="0">TEMPLATES</a>
                   <div class="list">
                     <ul>
                         <li>
@@ -170,7 +170,7 @@
               
                 </li>
                 <li class="sub-toggle">
-                  <a class="dropdown-btn" href="#">Resources</a>
+                  <a class="dropdown-btn" tabindex="0">RESOURCES</a>
                   <div class="list">
                     <ul>
                         <li><a href="https://primefaces.org/primeng/showcase/#/lts">Long Term Support</a></li>
@@ -188,7 +188,7 @@
                 </li>
               </ul>
 
-            <a href="https://github.com/primefaces/primeng">GitHub<img alt="GitHub" src="resources/images/icon-github-b.svg"></a>
+            <a href="https://github.com/primefaces/primeng">GITHUB<img alt="GitHub" src="resources/images/icon-github-b.svg"></a>
         </div>
     </div>
     <div class="landing-header">
@@ -871,8 +871,6 @@
 
     <script>
         var btn = document.getElementById("topToButton");
-        
-
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
@@ -896,14 +894,17 @@
             elm = document.querySelectorAll(mClass);
             for (var i = 0; i < elm.length; i++) {
                 if (className == 'active') {
-                elm[i].classList.remove('active');
-                } else {
-                if (!elm[i].classList.contains('active')) elm[i].querySelector('.list').classList.remove('show');
+                    elm[i].classList.remove('active');
+                } 
+                else {
+                    if (!elm[i].classList.contains('active')) {
+                        elm[i].querySelector('.list').classList.remove('show');
+                    }
                 }
             }
         }
 
-        window.onload = function(){
+        window.onload = function() {
             document.onclick = function(e){
                if(e.target.className !== 'dropdown-btn' ){
                     menu.forEach(function(o) {
@@ -920,7 +921,6 @@
                 this.classList.add('active');
                 removeClass(o);
                 this.querySelector('.list').classList.toggle('show');
-                
             });
         });
     </script>
