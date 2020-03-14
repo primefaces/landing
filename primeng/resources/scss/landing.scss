@@ -333,14 +333,15 @@ $transitionDuration: .4s;
                     > img {
                         width: 64px;
                         height: auto;
+                        @include transition(transform $transitionDuration);
                     }
 
                     &:hover {
-                        transform: scale(1.1);
-                        @include transition(transform $transitionDuration);
+                        img {
+                            transform: scale(1.1);
+                        }
                     }
                 }
-                
             }
         }
 
