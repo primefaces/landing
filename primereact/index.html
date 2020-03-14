@@ -603,12 +603,12 @@
             elm = document.querySelectorAll(mClass);
             for (var i = 0; i < elm.length; i++) {
                 if (className == 'active') {
-                elm[i].classList.remove('active');
+                    elm[i].classList.remove('active');
                 } 
                 else {
                     if (!elm[i].classList.contains('active')) {
                         elm[i].querySelector('.list').classList.remove('show');
-                    }                    
+                    }                 
                 }
             }
         }
