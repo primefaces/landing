@@ -26,7 +26,7 @@
         <div class="landing-topbar-menu">
             <ul id="menu" class="dropdown">
                 <li class="sub-toggle templates">
-                  <a class="dropdown-btn" href="#">Templates</a>
+                  <a class="dropdown-btn" tabindex="0">TEMPLATES</a>
                   <div class="list">
                     <ul>
                         <li>
@@ -70,7 +70,7 @@
                  
                 </li>
                 <li class="sub-toggle">
-                  <a class="dropdown-btn" href="#">Resources</a>
+                  <a class="dropdown-btn" tabindex="0">RESOURCES</a>
                   <div class="list">
                     <ul >
                         <li><a href="https://www.primefaces.org/primevue/#/support">Support</a></li>
@@ -85,7 +85,7 @@
                 </li>
               </ul>
 
-            <a href="https://github.com/primefaces/primevue">GitHub<img alt="GitHub" src="resources/images/icon-github-b.svg"></a>
+            <a href="https://github.com/primefaces/primevue">GITHUB<img alt="GitHub" src="resources/images/icon-github-b.svg"></a>
         </div>
     </div>
     <div class="landing-header">
@@ -93,28 +93,22 @@
             <h1>One UI Framework to Rule Them All</h1>
             <p>Your perfect companion for <a href="https://vuejs.org/" target="_blank">Vue</a> 
                 featuring elegant, high-performance, accessible and fully customizable UI Components.</p>
-            <a class="landing-button" href="https://www.primefaces.org/primevue/showcase/#/">
+            <a class="landing-button" href="https://primefaces.org/primevue/showcase/" >
+                <span>Demo</span>
+            </a>
+            <a class="landing-button landing-button-alt" href="https://primefaces.org/primevue/showcase/#/setup" >
                 <span>Get Started</span>
             </a>
             <span>Also available for Angular, Vue and Java</span>
             <div class="technologies">
                 <a href="https://www.primefaces.org/primeng/#/">
-                    <img src="resources/images/icon-angular.svg" alt="React">
-                    <span class="tooltip react">
-                        PrimeNG
-                    </span>
+                    <img src="resources/images/icon-angular.svg" alt="PrimeNG">
                 </a>
                 <a href="https://www.primefaces.org/primereact/#/">
-                    <img src="resources/images/icon-react.svg" alt="React">
-                    <span class="tooltip vue">
-                        PrimeReact
-                    </span>
+                    <img src="resources/images/icon-react.svg" alt="PrimeReact">
                 </a>
                 <a href="https://www.primefaces.org/showcase/">
-                    <img src="resources/images/icon-faces.svg" alt="Java">
-                    <span class="tooltip faces">
-                        PrimeFaces
-                    </span>
+                    <img src="resources/images/icon-faces.svg" alt="PrimeFaces">
                 </a>
             </div>
         </div>
@@ -592,7 +586,6 @@
 
     <script>
         var btn = document.getElementById("topToButton");
-
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
@@ -617,9 +610,12 @@
             elm = document.querySelectorAll(mClass);
             for (var i = 0; i < elm.length; i++) {
                 if (className == 'active') {
-                elm[i].classList.remove('active');
-                } else {
-                if (!elm[i].classList.contains('active')) elm[i].querySelector('.list').classList.remove('show');
+                    elm[i].classList.remove('active');
+                } 
+                else {
+                    if (!elm[i].classList.contains('active')) {
+                        elm[i].querySelector('.list').classList.remove('show');
+                    }
                 }
             }
         }
