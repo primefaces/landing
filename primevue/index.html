@@ -9,6 +9,28 @@
         gtag('js', new Date());
         gtag('config', 'UA-93461466-1');
     </script>
+    <script>
+        var tokens = window.location.href.split('/#/');
+        if (tokens[1]) {
+            window.location.replace("https://www.primefaces.org/primevue/showcase/#/" + tokens[1]);
+        }
+    </script>
+    <script>
+        var afId = getUrlParameter('af_id');
+        if (afId) {
+            var today = new Date();
+            var expire = new Date();
+            expire.setTime(today.getTime() + 3600000*24*7);
+            document.cookie = 'primeaffiliateid=' + afId + ';expires=' + expire.toUTCString() + ';path=/; domain:primefaces.org';
+        }
+
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        };
+    </script>
     <meta charset="UTF-8">
     <meta name="description" content="Open source Angular UI component library.">
     <meta name="keywords" content="angular material,angular cli,angular ui component library,angular ui component framework, angular table, angular tree, angular select">
