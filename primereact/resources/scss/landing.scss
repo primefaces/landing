@@ -47,13 +47,13 @@ $transitionDuration: .4s;
     .landing-button, .landing-button-alt {
         text-align: center;
         box-sizing: border-box;
-        padding: 12px 20px;
+        padding: 12px 16px;
         @include border-radius(1px);
         background-color: #61dafb;
         border: none;
         cursor: pointer;
         display: inline-block;
-        min-width: 110px;
+        min-width: 120px;
         box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
         @include transition(background-color $transitionDuration);
 
@@ -106,27 +106,49 @@ $transitionDuration: .4s;
                 list-style-type: none;
                 display: flex;
                 align-items: center;
+                width: 100%;
 
-                .sub-toggle {
-                    position: relative;
-                    margin-right: 8px;
+                > li {
+                    margin-left: 8px;
 
-                    &:last-child {
-                        margin-right: 0;
+                    &:first-child {
+                        margin-left: 0;
                     }
 
                     > a {
-                        display: block;
                         font-size: 16px;
-                        font-weight: 500;
-                        background: transparent;
-                        border: none;
-                        box-shadow: none;
-                        outline: none;
-                        cursor: pointer;
                         color: #ffffff;
-                        padding: 20px 40px 20px 20px;
+                        display: block;
+                        align-items: center;
+                        padding: 20px;
+                        font-weight: 500;
+                        cursor: pointer;
+                        border: none;
+                        outline: 0 none;
+                        background: transparent;
                         transition: background-color .2s;
+                        text-align: center;
+                        
+                        img {
+                            margin-left: 8px;
+                            vertical-align: middle;
+                        }
+
+                        span {
+                            vertical-align: middle;
+                        }
+        
+                        &:hover { 
+                            background-color: #3d4148;
+                        }
+                    }
+                }
+
+                .sub-toggle {
+                    position: relative;
+
+                    > a {
+                        padding: 20px 40px 20px 20px;
     
                         &::after {
                             content: "\25BE";
@@ -827,15 +849,33 @@ $transitionDuration: .4s;
         .landing-topbar {
             justify-content: center;
             flex-direction: column;
+            padding: 32px 0 0 0;
             
             .landing-button {
                 display: none;
             }
 
             .landing-topbar-menu {
+                width: 100%;
                 .dropdown {
+                    width: 100%;
+
+                    > li {
+                        margin-left: 0;
+                        flex: 1 0;
+
+                        > a {
+                            font-size: 14px;
+                            padding: 20px 10px;
+                        }
+                    }
+
                     .sub-toggle {
                         position: unset;
+
+                        > a {
+                            padding: 20px 30px 20px 20px;
+                        }
 
                         .list {
                             top: auto;
