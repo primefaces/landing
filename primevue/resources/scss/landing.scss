@@ -506,7 +506,12 @@ $transitionDuration: .4s;
             }
 
             a {
-                color: #0075df
+                color: #41b883;
+                font-weight: 700;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
 
@@ -572,7 +577,12 @@ $transitionDuration: .4s;
                 color: #ffffff;
 
                 a {
-                    color: #0075df
+                    font-weight: 700;
+                    color: #41b883;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
@@ -591,7 +601,7 @@ $transitionDuration: .4s;
                     align-items: flex-start;
                     padding-right: 120px;
                     padding-left: .5em;
-                    P {
+                    p {
                         text-align: left;
                     }
                 }
@@ -615,7 +625,6 @@ $transitionDuration: .4s;
                 }
             }
             
-
             .component-feature-text {
                 text-align: right;
                 @include flex();
@@ -643,16 +652,11 @@ $transitionDuration: .4s;
                 }
 
                 .landing-link {
-                    span {
-                        color: #0075df;
-                        font-weight: bold;
-                        @include transition(color $transitionDuration);
-                    }
+                    font-weight: 700;
+                    color: #41b883;
+
                     &:hover {
-                        span {
-                            color: #365674;
-                            text-decoration: underline;
-                        }
+                        text-decoration: underline;
                     }
                 }
             }

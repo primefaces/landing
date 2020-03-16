@@ -520,7 +520,12 @@ $transitionDuration: .4s;
             }
 
             a {
-                color: #0075df
+                color: #0075df;
+                font-weight: 700;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
 
@@ -586,7 +591,12 @@ $transitionDuration: .4s;
                 color: #ffffff;
 
                 a {
-                    color: #0075df
+                    color: #0075df;
+                    font-weight: 700;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
@@ -605,7 +615,7 @@ $transitionDuration: .4s;
                     align-items: flex-start;
                     padding-right: 120px;
                     padding-left: .5em;
-                    P {
+                    p {
                         text-align: left;
                     }
                 }
@@ -663,10 +673,7 @@ $transitionDuration: .4s;
                         @include transition(color $transitionDuration);
                     }
                     &:hover {
-                        span {
-                            color: #365674;
-                            text-decoration: underline;
-                        }
+                        text-decoration: underline;
                     }
                 }
             }

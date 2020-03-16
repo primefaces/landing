@@ -519,7 +519,12 @@ $transitionDuration: .4s;
             }
 
             a {
-                color: #0075df
+                color: #4daec8;
+                font-weight: 700;
+
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
 
@@ -585,7 +590,12 @@ $transitionDuration: .4s;
                 color: #ffffff;
 
                 a {
-                    color: #0075df
+                    color: #61dafb;
+                    font-weight: 700;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
@@ -656,16 +666,11 @@ $transitionDuration: .4s;
                 }
 
                 .landing-link {
-                    span {
-                        color: #0075df;
-                        font-weight: bold;
-                        @include transition(color $transitionDuration);
-                    }
+                    color: #4daec8;
+                    font-weight: 700;
+
                     &:hover {
-                        span {
-                            color: #365674;
-                            text-decoration: underline;
-                        }
+                        text-decoration: underline;
                     }
                 }
             }
