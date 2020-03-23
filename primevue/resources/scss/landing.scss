@@ -37,8 +37,9 @@ $transitionDuration: .4s;
     margin: 0;
     padding: 0;
     min-height: 100%;
+    padding-bottom: 110px;
     -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
 
     a {
         text-decoration: none;
@@ -88,7 +89,14 @@ $transitionDuration: .4s;
         @include flex();
         @include flex-justify-between();
         @include flex-align-center();
+        box-shadow: 0 0 4px rgba(0,0,0,0.25);
         padding:9px 6%;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        background-color: #ffffff;
+        top: 0;
+        box-sizing: border-box;
 
         > img {
             height: 42px;
@@ -278,8 +286,7 @@ $transitionDuration: .4s;
     .landing-header {
         @include flex();
         @include flex-justify-between();
-        padding: 0 6%;
-        padding-top: 52px;
+        padding: 162px 6% 0 6%;
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.03), #f4f5f5, #ffffff);
         overflow: hidden;
 
