@@ -797,6 +797,10 @@ $transitionDuration: .4s;
         @include flex-align-center();
         @include flex-justify-between();
 
+        .footer-logo {
+            height: 42px;
+        }
+
         .social-icons {
             @include flex();
             @include flex-align-center();
