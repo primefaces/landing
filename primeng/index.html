@@ -22,8 +22,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>PrimeNG | Angular UI Component Library</title>
     <link href="resources/images/icon-logo.png" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="resources/css/landing.css">
-    <link rel="stylesheet" href="resources/css/primeflex.css">
+    <link rel="stylesheet" href="./resources/css/primeflex.css">
+    <link rel="stylesheet" href="./resources/scss/landing.css">
 </head>
 
 <body class="landing-body">
@@ -38,6 +38,20 @@
                   <a class="dropdown-btn" tabindex="0">TEMPLATES</a>
                   <div class="list">
                     <ul>
+                        <li>
+                            <a href="https://www.primefaces.org/layouts/freya-ng">
+                                <img src="resources/images/templates/templates-small/freya-ng.png" alt="">
+                                <span>Freya</span>
+                                <span class="tag new">New</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.primefaces.org/layouts/poseidon-ng">
+                                <img src="resources/images/templates/templates-small/poseidon-ng.svg" alt="">
+                                <span>Poseidon</span>
+                                <span class="tag new">New</span>
+                            </a>
+                        </li>
                         <li>
                             <a href="https://www.primefaces.org/layouts/diamond-ng">
                                 <img src="resources/images/templates/templates-small/diamond-ng.png" alt="">
@@ -163,12 +177,6 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.primefaces.org/layouts/poseidon-ng">
-                                <img src="resources/images/templates/templates-small/poseidon-ng.png" alt="">
-                                <span>Poseidon</span>
-                            </a>
-                        </li>
-                        <li>
                             <a href="https://www.primefaces.org/layouts/omega-ng">
                                 <img src="resources/images/templates/templates-small/omega-ng.png" alt="">
                                 <span>Omega</span>
@@ -266,11 +274,13 @@
                             <ul>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/autocomplete">AutoComplete</a></li>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/calendar">Calendar</a></li>
+                                <li><a href="https://www.primefaces.org/primeng/showcase/#/cascadeselect">CascadeSelect</a></li>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/checkbox">Checkbox</a></li>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/chips">Chips</a></li>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/colorpicker">ColorPicker</a></li>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/dropdown">Dropdown</a></li>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/editor">Editor</a></li>
+                                <li><a href="https://www.primefaces.org/primeng/showcase/#/knob">Knob</a></li>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/keyfilter">KeyFilter</a></li>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/inputgroup">InputGroup</a></li>
                                 <li><a href="https://www.primefaces.org/primeng/showcase/#/inputmask">InputMask</a></li>
@@ -301,9 +311,11 @@
                     <ul>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/accordion">Accordion</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/card">Card</a></li>
+                        <li><a href="https://www.primefaces.org/primeng/showcase/#/divider">Divider</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/fieldset">Fieldset</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/flexgrid">FlexGrid</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/panel">Panel</a></li>
+                        <li><a href="https://www.primefaces.org/primeng/showcase/#/splitter">Splitter</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/scrollpanel">ScrollPanel</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/tabview">TabView</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/toolbar">Toolbar</a></li>
@@ -392,8 +404,11 @@
                 <li>
                     <span>MISC</span>
                     <ul>
+                        <li><a href="https://www.primefaces.org/primeng/showcase/#/avatar">Avatar</a></li>
+                        <li><a href="https://www.primefaces.org/primeng/showcase/#/badge">Badge</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/blockui">BlockUI</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/captcha">Captcha</a></li>
+                        <li><a href="https://www.primefaces.org/primeng/showcase/#/chip">Chip</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/codehighlighter">CodeHighlighter</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/defer">Defer</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/inplace">Inplace</a></li>
@@ -403,6 +418,9 @@
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/progressspinner">ProgressSpinner</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/responsive">Responsive</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/rtl">RTL</a></li>
+                        <li><a href="https://www.primefaces.org/primeng/showcase/#/scrolltop">ScrollTop</a></li>
+                        <li><a href="https://www.primefaces.org/primeng/showcase/#/skeleton">Skeleton</a></li>
+                        <li><a href="https://www.primefaces.org/primeng/showcase/#/tag">Tag</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/terminal">Terminal</a></li>
                         <li><a href="https://www.primefaces.org/primeng/showcase/#/validation">Validation</a></li>
                     </ul>
@@ -421,7 +439,7 @@
                     <img class="lazy" src="resources/images/placeholders/placeholder-features.jpg"
                         data-src="resources/images/asset-components.png"
                         data-srcset="resources/images/asset-components.png" alt="Components">
-                    <h2>80+ Components</h2>
+                    <h2>90+ Components</h2>
                     <span>The most complete set of native widgets featuring 80+ easy to use components for all your
                         UI
                         requirements.</span>
@@ -608,6 +626,20 @@
             of professional templates with options for material design, bootstrap and custom designs.</p>
         <div class="template-cards p-grid">
             <div class="p-col-6 p-md-4 p-lg-3" style="padding: 1em;">
+                <a href="https://www.primefaces.org/layouts/freya-ng"  class="template-card ">
+                    <img class="lazy" src="resources/images/placeholders/placeholder-templates.jpg"
+                        data-src="resources/images/templates/freya-ng.jpg"
+                        data-srcset="resources/images/templates/freya-ng.jpg" alt="Freya">
+                </a>
+            </div>
+            <div class="p-col-6 p-md-4 p-lg-3" style="padding: 1em;">
+                <a href="https://www.primefaces.org/layouts/poseidon-ng"  class="template-card ">
+                    <img class="lazy" src="resources/images/placeholders/placeholder-templates.jpg"
+                        data-src="resources/images/templates/poseidon-ng.jpg"
+                        data-srcset="resources/images/templates/poseidon-ng.jpg" alt="Poseidon">
+                </a>
+            </div>
+            <div class="p-col-6 p-md-4 p-lg-3" style="padding: 1em;">
                 <a href="https://www.primefaces.org/layouts/diamond-ng"  class="template-card ">
                     <img class="lazy" src="resources/images/placeholders/placeholder-templates.jpg"
                         data-src="resources/images/templates/diamond-ng.png"
@@ -738,13 +770,6 @@
                     <img class="lazy" src="resources/images/placeholders/placeholder-templates.jpg"
                         data-src="resources/images/templates/barcelona-ng.jpg"
                         data-srcset="resources/images/templates/barcelona-ng.jpg" alt="Barcelona">
-                </a>
-            </div>
-            <div class="p-col-6 p-md-4 p-lg-3" style="padding: 1em;">
-                <a href="https://www.primefaces.org/layouts/poseidon-ng"  class="template-card ">
-                    <img class="lazy" src="resources/images/placeholders/placeholder-templates.jpg"
-                        data-src="resources/images/templates/poseidon-ng.jpg"
-                        data-srcset="resources/images/templates/poseidon-ng.jpg" alt="Poseidon">
                 </a>
             </div>
             <div class="p-col-6 p-md-4 p-lg-3" style="padding: 1em;">
